@@ -1,0 +1,18 @@
+<div class="d-flex justify-content-center align-items-center">
+    <div class="card p-12">
+        <form [formGroup]="form" (ngSubmit)="login()">
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="form-control"  requiredminlength="5">
+            </div>
+sd
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" class="form-control"  requiredminlength="8">
+            </div>
+
+            <button class="btn btn-success" type="submit" [disabled]="!form.valid">Entrar</button>
+            <p *ngIf='mensagem != ""' class="alert alert-primary mt-2">{{ mensagem }}</p>
+        </form>
+    </div>
+</div>
