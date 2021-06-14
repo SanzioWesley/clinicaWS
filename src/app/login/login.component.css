@@ -1,0 +1,28 @@
+.d-flex {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.btn,
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.form-group {
+    width: 100%;
+    padding: 2px 20px;
+    margin: 8px 0;
+}
+
+.btn-1 {
+    margin-bottom: 60px;
+}
+
+.btn-2 {
+    margin-top: 30px;
+}

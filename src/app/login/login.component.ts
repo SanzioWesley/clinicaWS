@@ -36,24 +36,3 @@ import { FormBuilder, FormControl, FormGroup, Validators, FormControlName } from
         }
     }
 }
-
-
-
-
-
-// export class LoginComponent implements OnInit {
-
-//     myForm!: FormGroup;
-//     email!: FormControl;
-//     password!: FormControl;
-
-//     ngOnInit() {
-//         this.email = new FormControl('username', Validators.required);
-//         this.password = new FormControl('password', Validators.required);
-
-//         this.myForm = new FormGroup({
-//             username: this.email,
-//             password: this.password
-//         });
-//     }
-// }

@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { RouterModule } from '@angular/router';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 @NgModule({
     imports: [
@@ -12,12 +13,14 @@ import { RouterModule } from '@angular/router';
         AppRoutingModule,
         ReactiveFormsModule,
         RouterModule.forRoot([
-          { path: 'login', component: LoginComponent }
+          { path: 'login', component: LoginComponent },
+          { path: 'cadastro', component: CadastroComponent }
         ])
       ],
     declarations: [
         AppComponent,
-        LoginComponent
+        LoginComponent,
+        CadastroComponent
     ],
 
     providers: [],
