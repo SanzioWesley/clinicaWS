@@ -11,7 +11,6 @@ import { FormBuilder, FormControl, FormGroup, Validators, FormControlName } from
   export class LoginComponent {
 
     form: any;
-    // formBuilder: any;
     mensagem!: string;
     emailDB: any;
     senhaDB: any;
