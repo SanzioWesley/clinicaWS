@@ -6,8 +6,8 @@
         </div>
 
         <form [formGroup]="form " (ngSubmit)="login() ">
-            <button class="btn-1 btn btn-success">Cadastra-se</button>
-
+            <button class="btn-1 btn btn-success"><a [routerLink]="['/cadastro']">Cadastra-se</a></button>
+            <a href=""></a>
             <div class="form-group ">
                 <!-- <label for="email ">E-mail</label> -->
                 <input type="email " id="email " placeholder="Email " class="form-control ">
